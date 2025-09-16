@@ -20,8 +20,8 @@ Follow these steps to set up and run the AI bot.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/cpsurfer/AI-bot.git](https://github.com/cpsurfer/AI-bot.git)
+    cd AI-bot
     ```
 
 2.  **Add your API key:**

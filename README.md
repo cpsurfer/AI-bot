@@ -40,7 +40,7 @@ Follow these steps to set up and run the AI bot.
 To make the assistant work, you need to create a folder and add your personal documents.
 
 -   **Create a folder:** In the root directory of the project, create a new folder named `me`.
--   **Add your files:** Place your CV, professional summary, or any other relevant text documents (e.g., `my_cv.pdf`, `about_me.txt`) inside the `me` folder.
+-   **Add your files:** Place your personal documents inside the `me` folder. The bot is ready to process files such as `linkedin.pdf`, `cv.pdf`, and `summary.txt`.
 
 ### 💻 Run the Bot
 

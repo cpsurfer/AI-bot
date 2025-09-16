@@ -131,7 +131,7 @@ def record_unknown_question(question):
 class Me:
     def __init__(self):
         """Initializes the chatbot, configures the AI model, and loads data."""
-        self.name = "Vaibhav Karad"
+        self.name = "Rahul Sahu"
         gemini_key = safe_get_secret("GEMINI_API_KEY")
 
         if not HAS_GEMINI or not gemini_key:

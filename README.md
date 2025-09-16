@@ -1,14 +1,14 @@
 # 🧠 My Personal AI Assistant
 
-A private, custom AI assistant designed to answer questions and provide information about me, based on my personal documents.
+A custom AI assistant designed to answer questions and provide information about me, based on my personal documents.
 
 ---
 
 ## ✨ Features
 
-- **Personalized Responses:** The bot provides answers tailored to your queries using information from your provided documents.
-- **Secure & Private:** The assistant only accesses files you provide in the designated `me` folder, ensuring your data remains private and secure.
-- **Easy to Use:** A simple, intuitive interface built with Streamlit for a seamless conversational experience.
+* **Personalized Responses:** The bot tailors answers to your queries using information from documents you provide.
+* **Secure & Private:** The assistant only accesses files in the designated `me` folder, ensuring your data remains private and secure.
+* **Easy to Use:** A simple, intuitive interface built with Streamlit offers a seamless conversational experience.
 
 ---
 
@@ -25,7 +25,7 @@ Follow these steps to set up and run the AI bot.
     ```
 
 2.  **Add your API key:**
-    Create a folder named `.streamlit` in the root directory. Inside it, create a file called `secrets.toml` and add your Gemini API key:
+    Create a folder named `.streamlit` in the project's root directory. Inside it, create a file named `secrets.toml` and add your **Google Gemini API key**:
     ```toml
     GEMINI_API_KEY="your_api_key_here"
     ```
@@ -37,10 +37,10 @@ Follow these steps to set up and run the AI bot.
 
 ### 📁 Add Your Documents
 
-To make the assistant work, you need to create a folder and add your personal documents.
+To make the assistant work, you need to provide your personal documents.
 
--   **Create a folder:** In the root directory of the project, create a new folder named `me`.
--   **Add your files:** Place your personal documents inside the `me` folder. The bot is ready to process files such as `linkedin.pdf`, `cv.pdf`, and `summary.txt`.
+* **Create a folder:** In the project's root directory, create a new folder called `me`.
+* **Add your files:** Place your personal documents inside the `me` folder. The bot is ready to process files such as `linkedin.pdf`, `cv.pdf`, and `summary.txt`.
 
 ### 💻 Run the Bot
 
